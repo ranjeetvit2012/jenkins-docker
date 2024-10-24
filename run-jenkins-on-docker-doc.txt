@@ -1,0 +1,18 @@
+Run Jenkins in Docker Container - Jenkins Pipeline Tutorial for Beginners
+
+docker pull -p 8080:8080 -p 5000:5000 -d -v jenkins_home:/var/jenkins_home jenkins/jenkins
+
+docker ps
+
+
+docker logs containerID['2cbcbf347ce7']
+
+repo name - 
+jenkins-docker
+
+Jenkins Pipeline Tutorial for Beginners - Running Jenkins in a Docker Container
+This repository provides a step-by-step guide on how to set up and run Jenkins inside a Docker container
+
+
+
+
